@@ -10,7 +10,7 @@ config = {
     'download_url': 'Where to download it',
     'author_email': 'sean.mosely@gmail.com',
     'version': '0.1',
-    'install_requires': ['nose', 'lxml'],
+    'install_requires': ['lxml',],
     'packages': ['pydc'],
     'scripts': [],
     'name': 'pydc'
