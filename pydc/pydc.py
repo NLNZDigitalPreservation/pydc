@@ -14,6 +14,9 @@ dc_nsmap = {
     "xsi": XSI_NS,
 }
 
+ET.register_namespace('dc', DC_NS)
+ET.register_namespace('dcterms', DCTERMS_NS)
+ET.register_namespace('xsi', XSI_NS)
 
 class DCRecord(ET.ElementBase):
     """For building a Dublin Core record. Handles the following namespaces:
@@ -23,6 +26,10 @@ class DCRecord(ET.ElementBase):
     attributes)
     """
     TAG = "{%s}record" % (DC_NS,)
+
+
+    def __init__(self):
+        super(DCRecord, self).__init__(nsmap=dc_nsmap)
 
     def add_field(self, key, value):
         tag = key
