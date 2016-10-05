@@ -1,7 +1,7 @@
-from nose.tools import *
-from pydc.pydc import DCRecord as DCR
 from lxml import etree as ET
+from nose.tools import *
 
+from pydc.pydc import DCRecord as DCR
 
 def test_basic_record():
     """Basic three-field record"""
