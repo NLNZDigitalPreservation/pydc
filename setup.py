@@ -9,7 +9,7 @@ config = {
     'url': 'URL to get at it',
     'download_url': 'Where to download it',
     'author_email': 'sean.mosely@gmail.com',
-    'version': '0.1',
+    'version': '0.1.0',
     'install_requires': ['lxml',],
     'packages': ['pydc'],
     'scripts': [],
