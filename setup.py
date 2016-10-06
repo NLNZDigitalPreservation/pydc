@@ -14,7 +14,7 @@ config = {
     'packages': ['pydc'],
     'scripts': [],
     'name': 'pydc',
-    'description': 'Python library for generating Dublin Core XML'
+    'description': 'Python library for generating Dublin Core XML',
     'download_url': 'https://github.com/NLNZDigitalPreservation/pydc/archive/v'+VERSION+'.tar.gz',
     'license': 'MIT',
 }
