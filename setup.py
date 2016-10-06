@@ -17,6 +17,7 @@ config = {
     'scripts': [],
     'name': 'pydc',
     'download_url': 'https://github.com/NLNZDigitalPreservation/pydc/archive/v'+VERSION+'.tar.gz',
+    'license': 'MIT',
 }
 
 setup(**config)
