@@ -16,7 +16,7 @@ config = {
     'packages': ['pydc'],
     'scripts': [],
     'name': 'pydc',
-    'download_url': 'https://github.com/NLNZDigitalPreservation/pydnx/archive/'+VERSION+'.tar.gz',
+    'download_url': 'https://github.com/NLNZDigitalPreservation/pydc/archive/'+VERSION+'.tar.gz',
 }
 
 setup(**config)
