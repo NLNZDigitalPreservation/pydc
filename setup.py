@@ -10,7 +10,7 @@ config = {
     'author': 'Sean Mosely',
     'author_email': 'sean.mosely@gmail.com',
     'version': VERSION,
-    'install_requires': ['lxml==3.6.4',],
+    'install_requires': ['lxml>=3.6.4',],
     'packages': ['pydc'],
     'scripts': [],
     'name': 'pydc',
